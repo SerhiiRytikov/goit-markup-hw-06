@@ -798,6 +798,11 @@ address .item:not(:first-child) {
     height: 18px;
 }
 
+.modal-btn .btn-close:hover,
+.modal-btn .btn-close:focus {
+    fill: var(--accent-color);
+}
+
 /* Modal Form */
 
 .modal__form-title {
