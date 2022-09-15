@@ -252,14 +252,12 @@ p, h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
 }
 
-.backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.9);
-}
-
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* transform: translate(-50%, -50%); */
 
     width: 528px;
     height: 581px;
@@ -743,7 +741,3 @@ address .item:not(:first-child) {
     font-size: 16px;
     line-height: 1.88;
 }
-
-/* ============ */
-/* Modal Window */
-/* ============ */
